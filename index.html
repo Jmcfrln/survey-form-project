@@ -18,15 +18,13 @@
         <label for="name">Enter your full name: <input id="name" name="name" 
             type="text" required placeholder="John Smith" /></label>
 
-        <label for="email">Enter your email address: <input id="email" name="email" 
+        <label class="main-label" for="email">Enter your email address: <input id="email" name="email" 
             type="email" required placeholder="john.smith@email.com" /></label>  
             
-        <label for="age">Provide your age (years): <input id="age" name="age" 
+        <label class="main-label" for="age">Provide your age (years): <input id="age" name="age" 
             type="number" min="13" max="120" required placeholder="69"/></label>     
-         </fieldset>
          
-    <fieldset>
-        <label for="position">Which option best describes your current role? <select id="position"
+        <label class="main-label" for="position">Which option best describes your current role? <select id="position"
             name="position">
         <option value="">Select Current Role</option>
         <option value="1">Student</option>
@@ -36,9 +34,7 @@
         <option value="5">Other</option>
         </select>
         </label>
-    </fieldset>
 
-    <fieldset>
          <p id="rec">Would you recommend us to a friend?</p>
 
         <label for="definitely"><input id="definitely" type="radio" 
@@ -52,10 +48,8 @@
 
         <label for="not-sure"><input id="not-sure" type="radio" 
             name="recommend" class="inline" />Not Sure </label>
-    </fieldset>   
     
-    <fieldset>
-    <label for="feature">Which is your favourite feature? <select id="feature"
+    <label class="main-label" for="feature">Which is your favourite feature? <select id="feature"
                 name="feature">
         <option value="">Please Select One</option>
         <option value="1">Feature 1</option>
@@ -89,12 +83,12 @@
         <label for="option-6"><input id="option-6" type="checkbox" 
                 name="improvement" class="inline" />Option 6 </label>
 
-        <label for="comments" name="comments">Please provide any additional comments: 
+        <label class="main-label" for="comments" name="comments">Please provide any additional comments: 
             <textarea id="comments" name="comments" rows="6" cols="30" 
             placeholder="Please provide any additional comments..."></textarea>
         </label>  
      </fieldset>
-     <input type="submit" value="Submit" />
+     <input class="button" type="submit" value="Submit" />
 </form>
 </div>
 </body>
