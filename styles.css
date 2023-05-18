@@ -11,10 +11,12 @@ body {
         background-color: #1b1b32;
         margin-left: auto;
         margin-right: auto;
-        padding: 20px;
+        padding: 30px;
         min-width: 50%;
         max-width: 500px;
   }
+
+
 
   h1, 
   p {
@@ -24,14 +26,18 @@ body {
 
  fieldset {
     padding: 2rem 0;
-    border: 3px solid #3b3b4f;
+    border: 1px solid #3b3b4f;
  }
 
  label {
     display: block;
     align-items: start;
     margin: 0.5rem 0;
-  }
+    padding: 1em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+  
 
   input,
   textarea,
@@ -63,3 +69,13 @@ body {
     border-color: white;
     min-width: 300px;
   }
+
+  #description {
+    font-style: italic;
+  }
+
+  #rec,
+  #imp { 
+    text-align: left;
+    padding: 1em;
+}
