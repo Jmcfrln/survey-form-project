@@ -1,7 +1,7 @@
 body {
     width: 100%;
     margin: 0;
-    /* background-color: #1b1b32; */
+    background-color: #1b1b32;
     background-image: url(https://freefrontend.com/assets/img/css-background-patterns/2023-rotated-square-pattern.png);
     color: #f5f6f7;
     font-family: Helvetica, sans-serif;
@@ -14,9 +14,13 @@ body {
         background-color: #1b1b32d9;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: -2em;
+        /* margin-bottom: 1em; */
         min-width: 50%;
         max-width: 500px;
+  }
+
+  #survey-form {
+    padding-bottom: 10px;
   }
 
 
@@ -29,7 +33,9 @@ body {
 
  fieldset {
     padding: 2rem 0;
-    border: 1px solid #3b3b4f;
+    margin-bottom: -25px;
+    border: 0;
+
  }
 
  label {
@@ -94,6 +100,34 @@ input[type="submit"] {
   }
 
 
+
   .button:hover {
     background-color: #8181b1;
   }
+
+  .button:active {
+    background-color: #a5a5e4;
+  }
+
+
+  /* FOOTER */
+
+  footer {
+    font-size: 14px;
+    padding: 1em;
+    font-weight: bold;
+  }
+
+  a {
+    color: white;
+  }
+
+  a:hover {
+    color: #3b3b4f; 
+  }
+
+  a:active {
+   color: #8181b1;
+  }
+    
+  
