@@ -1,14 +1,17 @@
 body {
     width: 100%;
     margin: 0;
-    background-color: #1b1b32;
+    /* background-color: #1b1b32; */
+    background-image: url(https://freefrontend.com/assets/img/css-background-patterns/2023-rotated-square-pattern.png);
     color: #f5f6f7;
     font-family: Helvetica, sans-serif;
     font-size: 16px;
+    background-size: cover;
+    background-position: center;
 }
 
 .survey {
-        background-color: #1b1b32;
+        background-color: #1b1b32d9;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: -2em;
