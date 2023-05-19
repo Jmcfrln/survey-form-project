@@ -16,7 +16,6 @@ body {
         border-radius: 12px;
         margin-left: auto;
         margin-right: auto;
-        /* margin-bottom: 1em; */
         min-width: 50%;
         max-width: 500px;
   }
@@ -105,11 +104,11 @@ input[type="submit"] {
 
 
 
-  .button:hover {
+  #submit:hover {
     background-color: #8181b1;
   }
 
-  .button:active {
+  #submit:active {
     background-color: #a5a5e4;
   }
 
